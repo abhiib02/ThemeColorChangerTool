@@ -2,7 +2,7 @@ function changeValueofcssVariable(cssVariable){
   const style = document.querySelector(`#${cssVariable}`);
   const input = document.querySelector(`#${cssVariable}-input`);
   style.innerHTML ="";
-  style.innerHTML = `:root{--${cssVariable}:${input.value};}`;
+  style.innerHTML = `:root{--${cssVariable}:${input.value} !important;}`;
   
 }
 function themeColorChanger(cssVarArr){
