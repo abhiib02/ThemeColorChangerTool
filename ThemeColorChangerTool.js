@@ -13,7 +13,7 @@ function themeColorChanger(cssVarArr){
   
   const fragment = new DocumentFragment();
   const fragmentStyle = new DocumentFragment();
-  form.style="display:flex;flex-direction:column;position:fixed;top:0%;right:0%;z-index:10000;background:white;padding:10px;outline:1px solid #000;";
+  form.style="display:flex;flex-direction:column;position:fixed;top:45%;right:0%;z-index:10000;background:white;padding:10px;outline:1px solid #000;";
   cssVarArr.forEach((cssVariable)=>{
     const label = document.createElement('label');
     const input = document.createElement('input');
